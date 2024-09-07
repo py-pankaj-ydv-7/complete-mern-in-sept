@@ -1,0 +1,36 @@
+.container{
+    background-color: cornflowerblue;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    overflow: scroll;
+
+}
+
+.box{
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    /* position: static; ye hamara normal position hi hai  isme fir baki ki property kaam nahi karti hai  */
+    top: 250px;
+    left: 50px;
+    /* position: relative; */
+    /* position: fixed; */
+    position: absolute;
+    
+    /**
+    2. Topic
+    .overflow{
+    height:200px;
+    width:200px;
+    background-color: orange;
+    overflow:visible;
+
+    3. Float property
+
+    
+    
+    **/
+    
+
+}
