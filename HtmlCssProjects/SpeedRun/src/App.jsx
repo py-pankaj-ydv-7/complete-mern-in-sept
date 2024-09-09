@@ -1,9 +1,24 @@
+/* eslint-disable no-unused-vars */
+import Header from "./Components/Header";
+import Body from "./Components/Body";
+import Footer from "./Components/Footer";
+
+import "./index.css"
+// import { FaBars } from 'react-icons/fa';
+
 
 function App() {
   
+
   return (
     <>
-      <h1>Hello Ji</h1>
+      <div className="min-h-screen px-6 py-3 bg-amber-50 flex flex-col gap-16 md:px-10 md:py-7 md:justify-between lg:px-16 lg:justify-between">
+      <Header/>
+      <Body/>
+      <Footer/>
+
+       
+      </div>
     </>
   )
 }
